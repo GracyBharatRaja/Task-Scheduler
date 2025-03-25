@@ -1,0 +1,75 @@
+body{
+
+    font-family: Arial, sans-serif;
+    background: gold;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.schedule-container{
+
+    background:palegreen;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 5px 15px;
+    text-align: center;
+
+
+
+}
+
+h2{
+    margin-bottom: 20px;
+    color:maroon;
+
+}
+
+.input-area{
+
+    
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+input[type="number"],
+input[type="text"]{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+
+}
+
+button{
+
+    background:green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button:hover{
+
+    background:orange;
+}
+.logs {
+    background: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: left;
+    max-height: 250px;
+    overflow-y: auto;
+  }
